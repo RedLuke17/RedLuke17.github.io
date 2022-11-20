@@ -1,31 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    cursor: crosshair;
 }
 
-body {
+.flex {
     display: flex;
+}
+
+.waves {
     height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: #060a1f;
-    font-family: "Montserrat",sans-serif;
-}
-
-nav {
-    position: relative;
-    width: 170px;
-    height: 80px;
-    background: #080e2b;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 1px solid #060a1f;
-    transition: all 0.4s;
-    overflow: hidden;
-}
-
-nav::before {
-    
+    justify-content: space-between;
+    flex-direction: column-reverse;
 }
