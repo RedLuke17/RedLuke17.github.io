@@ -95,6 +95,10 @@
 
 @media ( max-width: 868px ) {
 
+    body.disabledScroll {
+        overflow: hidden;
+    }
+
     .icon {
         display: block;
     }
