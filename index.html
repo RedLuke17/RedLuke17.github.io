@@ -13,18 +13,22 @@
         <div class="content">
             <div class="logo"><a href="#">CodingNepal</a></div>
             <ul class="menu-list">
+
                 <div class="icon cancel-btn">
                     <i class="fas fa-times">GG</i>
                 </div>
+
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+
             <div class="icon menu-btn">
                 <i class="fas fa-bars">GG</i>
             </div>
+            
         </div>
     </nav>
 
@@ -39,24 +43,6 @@
         </div>
     </div>
 
-    <script>
-        const navbar = document.querySelector(".navbar");
-        const menu = document.querySelector(".menu-list");
-        const menuBtn = document.querySelector(".menu-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        menuBtn.onclick = ()=>{
-            menu.classList.add("active")
-            menuBtn.classList.add("hide")
-        }
-
-        cancelBtn.onclick = ()=>{
-            menu.classList.remove("active")
-            menuBtn.classList.remove("hide")
-        }
-
-        window.onscroll = ()=>{
-            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-        }
-    </script>
+    <script src="./static/js/index.js"></script>
 </body>
 </html>

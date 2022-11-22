@@ -93,7 +93,7 @@
     top: 20px;
 }
 
-@media (max-width: 868px ) {
+@media ( max-width: 868px ) {
 
     .icon {
         display: block;
@@ -112,7 +112,7 @@
         max-width: 400px;
         background: #222;
         display: block;
-        margin: 40px 0;
+        padding: 40px 0;
         text-align: center;
         transition: all 0.3s ease;
     }
