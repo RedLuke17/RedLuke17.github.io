@@ -61,7 +61,7 @@
 
 .banner {
     height: 100vh;
-    background: url("https://static.iphoneitalia.com/wp-content/uploads/2017/09/Schermata-2017-09-12-alle-20.18.52-630x352.png") no-repeat;
+    background: url("../static/images/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
