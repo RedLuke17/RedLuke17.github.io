@@ -27,8 +27,15 @@ img:hover {
 }
 
 
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 
-
+.image:hover {
+    opacity: 0.3;
+}
 
 
 .lib {
@@ -91,6 +98,12 @@ img:hover {
     object-fit: cover;
     margin-left: 14px;
     width: calc(100% / 3);
+    transform: scale(0.91);
+    transition: all .4s;
+}
+
+.carousel img:hover {
+    transform: scale(1);
 }
 
 .carousel img:first-child {
@@ -200,6 +213,10 @@ img:hover {
     position: absolute;
     right: 30px;
     top: 20px;
+}
+
+.fa-solid .fa-angle-left {
+    z-index: 10;
 }
 
 @media ( max-width: 868px ) {
