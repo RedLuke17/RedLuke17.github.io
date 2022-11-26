@@ -135,6 +135,7 @@ img:hover {
     margin: auto;
     padding: 0px 30px;
 }
+
 .navbar {
     position: fixed;
     z-index: 5;
@@ -145,7 +146,7 @@ img:hover {
 
 .navbar.sticky {
     padding: 10px 0;
-    background: #1b1b1b;
+    background: #042735;
 }
 
 .navbar .content {
